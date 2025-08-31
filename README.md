@@ -5,17 +5,17 @@
 ```markdown
 # 📩 Email / SMS Spam Classifier
 
-A simple Machine Learning project that classifies text messages (emails/SMS) as **Spam** or **Ham** using **Naïve Bayes** and **CountVectorizer**.  
-Built with **Scikit-learn** and deployed using **Streamlit**.
+A simple Machine Learning project that classifies text messages (emails/SMS) as Spam or Not Spam using Naïve Bayes and CountVectorizer.  
+Built with Scikit-learn and deployed using Streamlit.
 
-🔗 **Live Demo**: [Try it here!](https://emailspamclassifier-roogpzwt4pmtqrylmxbage.streamlit.app/)
+🔗 Live Demo: [Try it here!](https://emailspamclassifier-roogpzwt4pmtqrylmxbage.streamlit.app/)
 
 ---
 
 ## 🚀 Features
-- ✅ Classifies messages into **Spam** or **Ham (Not Spam)**  
-- ✅ Shows **confidence score** of the prediction  
-- ✅ Clean and interactive **Streamlit UI**  
+- ✅ Classifies messages into Spam or Not spam 
+- ✅ Shows confidence score of the prediction  
+- ✅ Clean and interactive Streamlit UI 
 - ✅ Trained on the popular [SMS Spam Collection Dataset (UCI ML Repo)](https://archive.ics.uci.edu/ml/datasets/sms+spam+collection)  
 
 ---
@@ -34,12 +34,12 @@ EmailSpamClassifier/
 ---
 
 ## ⚙️ How It Works
-1. **Vectorization**  
-   - The text is converted into numerical features using **CountVectorizer**.  
-2. **Classification**  
-   - A **Multinomial Naïve Bayes** classifier predicts whether the message is spam or not.  
-3. **Result Display**  
-   - Shows prediction result with a **confidence percentage**.  
+1. Vectorization  
+   - The text is converted into numerical features using CountVectorizer.  
+2. Classification  
+   - A Multinomial Naïve Bayes classifier predicts whether the message is spam or not.  
+3. Result Display  
+   - Shows prediction result with a confidence percentage.  
 
 ---
 
@@ -99,10 +99,3 @@ Then open in your browser: `http://localhost:8501`
 Developed by **[Hammad Shah](https://github.com/hammadshah18)**
 
 💡 Contributions, issues, and feature requests are welcome!
-
-```
-
----
-
-
-```
